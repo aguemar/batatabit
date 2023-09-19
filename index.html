@@ -4,158 +4,197 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
     <main>
       <section class="hero">
-        <a href="#" class="logo">
-          <img src="./assets/media/logo.svg" alt="logo batatabit" />
-        </a>
-        <h1 class="hero-title">
-          La próxima revolución en el intercambio de criptomonedas.
-        </h1>
-        <p class="hero-text">
-          Batatabit te ayuda a navegar entre los diferentes precios y
-          tendencias.
-        </p>
-        <button class="button">
-          Conoce Nuestros Planes
-          <svg
-            width="25"
-            height="24"
-            viewBox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clip-path="url(#clip0_430_85)">
-              <path
-                d="M7.91 8.58997L12.5 13.17L17.09 8.58997L18.5 9.99997L12.5 16L6.5 9.99997L7.91 8.58997Z"
-                fill="#201E1C"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_430_85">
-                <rect
-                  width="24"
-                  height="24"
-                  fill="white"
-                  transform="translate(0.5)"
+        <div class="container">
+          <a href="#" class="hero-logo">
+            <img src="./assets/media/logo.svg" alt="logo batatabit" />
+          </a>
+          <h1 class="hero-title">
+            La próxima revolución en el intercambio de criptomonedas.
+          </h1>
+          <p class="hero-text">
+            Batatabit te ayuda a navegar entre los diferentes precios y
+            tendencias.
+          </p>
+          <button class="button hero-button">
+            Conoce Nuestros Planes
+            <svg
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_430_85)">
+                <path
+                  d="M7.91 8.58997L12.5 13.17L17.09 8.58997L18.5 9.99997L12.5 16L6.5 9.99997L7.91 8.58997Z"
+                  fill="#201E1C"
                 />
-              </clipPath>
-            </defs>
-          </svg>
-        </button>
+              </g>
+              <defs>
+                <clipPath id="clip0_430_85">
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(0.5)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
       </section>
     </main>
     <section class="change">
       <div class="container">
         <div class="change-inner">
-          <h2>Visibilizamos todas las tasas de cambio.</h2>
-          <p>
+          <div class="change-image">
+            <img src="./assets/media/Bitcoin.png" alt="" />
+          </div>
+          <h2 class="title">Visibilizamos todas las tasas de cambio.</h2>
+          <p class="text">
             Traemos información en tiempo real de las casas de cambio y las
             monedas más importantes del mundo.
           </p>
           <div class="change-content">
-            <h3>Monedas</h3>
-            <div class="change-table">
-              <p>Bitcoin</p>
-              <span
-                >$1.96
-                <svg
-                  width="12"
-                  height="13"
-                  viewBox="0 0 12 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M8.5 9.5H11.5V6.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <p>Ethereum</p>
-              <span
-                >$0.07
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 12 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.5 3L6.75 7.75L4.25 5.25L0.5 9"
-                    stroke="#07D635"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M8.5 3H11.5V6"
-                    stroke="#07D635"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <p>Ripple</p>
-              <span
-                >$2.15
-                <svg
-                  width="12"
-                  height="13"
-                  viewBox="0 0 12 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M8.5 9.5H11.5V6.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <p>Stellar</p>
-              <span
-                >$4.96
-                <svg
-                  width="12"
-                  height="13"
-                  viewBox="0 0 12 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M8.5 9.5H11.5V6.5"
-                    stroke="#F5450D"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
+            <button id="prevButton" class="nav-button">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div id="table1" class="change-table active">
+              <h3 class="change-table-title text-orange">Monedas</h3>
+              <div class="change-table-content">
+                <p>Bitcoin</p>
+                <span
+                  >$1.96
+                  <svg
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.5 9.5H11.5V6.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <p>Ethereum</p>
+                <span
+                  >$0.07
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 3L6.75 7.75L4.25 5.25L0.5 9"
+                      stroke="#07D635"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.5 3H11.5V6"
+                      stroke="#07D635"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <p>Ripple</p>
+                <span
+                  >$2.15
+                  <svg
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.5 9.5H11.5V6.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <p>Stellar</p>
+                <span
+                  >$4.96
+                  <svg
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.5 9.5H11.5V6.5"
+                      stroke="#F5450D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <p href="" class="change-table-orange">
+                Valores en <span> $ USD</span>
+              </p>
             </div>
-            <div class="button button-wanger">Valores en $ USD</div>
+            <div id="table2" class="change-table">
+              <h3 class="change-table-title text-blue">Comisiones</h3>
+              <div class="change-table-content">
+                <p>Bitrade</p>
+                <span>$12.96</span>
+                <p>Bitpreco</p>
+                <span>$13.07</span>
+                <p>Novadax</p>
+                <span>$13.15 </span>
+                <p>Coinext</p>
+                <span>$14.96 </span>
+              </div>
+              <p href="" class="change-table-blue">
+                Valores en <span> $ USD</span>
+              </p>
+            </div>
+            <button id="nextButton" class="nav-button">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -163,8 +202,8 @@
     <section class="info">
       <div class="container">
         <div class="info-inner">
-          <h2>Te ayudamos a tomar la mejor decisión, siempre.</h2>
-          <p>
+          <h2 class="title">Te ayudamos a tomar la mejor decisión, siempre.</h2>
+          <p class="text">
             Que la incertidumbre en materia de criptomonedas sea cosa del
             pasado.
           </p>
@@ -460,5 +499,18 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-social"></div>
+          <div class="footer-logo">
+            <a href="">
+              <img src="./assets/media/logo.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
