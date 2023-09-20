@@ -336,13 +336,12 @@ a {
 .plans-cards {
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 
 .plans-card {
   flex: 0 0 auto;
   width: 75%;
-  max-width: calc(33.33% - 1rem);
+
   scroll-snap-align: start;
   padding: 2rem 1rem 1.5rem;
   border-radius: 8px;
@@ -406,5 +405,9 @@ a {
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
+  }
+  .plans-card {
+    width: 100%;
+    scroll-snap-align: start;
   }
 }
