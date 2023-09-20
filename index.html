@@ -16,48 +16,29 @@
   <body>
     <main>
       <section class="hero">
-        <div class="container container-sm">
-          <a href="#" class="hero-logo">
-            <img src="./assets/media/logo.svg" alt="logo batatabit" />
-          </a>
-          <h1 class="hero-title">
-            La próxima revolución en el intercambio de criptomonedas.
-          </h1>
-          <p class="hero-text">
-            Batatabit te ayuda a navegar entre los diferentes precios y
-            tendencias.
-          </p>
+        <div class="container">
+          <div class="hero-logo">
+            <a href="#" class="logo">
+              <img src="./assets/media/logo.svg" alt="logo batatabit" />
+            </a>
+          </div>
+          <div class="hero-content">
+            <h1 class="hero-title">
+              La próxima revolución en el intercambio de criptomonedas.
+            </h1>
+            <p class="hero-text">
+              Batatabit te ayuda a navegar entre los diferentes precios y
+              tendencias.
+            </p>
+          </div>
           <button class="btn btn-gray hero-button">
             Conoce Nuestros Planes
-            <svg
-              width="25"
-              height="24"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_430_85)">
-                <path
-                  d="M7.91 8.58997L12.5 13.17L17.09 8.58997L18.5 9.99997L12.5 16L6.5 9.99997L7.91 8.58997Z"
-                  fill="#201E1C"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_430_85">
-                  <rect
-                    width="24"
-                    height="24"
-                    fill="white"
-                    transform="translate(0.5)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
+            <i class="fa-solid fa-chevron-down"></i>
           </button>
         </div>
       </section>
       <section class="change">
-        <div class="container container-sm">
+        <div class="container">
           <div class="change-inner">
             <div class="change-image">
               <img src="./assets/media/Bitcoin.png" alt="" />
@@ -68,7 +49,7 @@
               monedas más importantes del mundo.
             </p>
             <div class="change-content">
-              <button id="prevButton" class="nav-button">
+              <button id="prevButton" class="change-btn" disabled>
                 <i class="fa-solid fa-chevron-left"></i>
               </button>
               <div id="table1" class="change-table active">
@@ -191,7 +172,7 @@
                   Valores en <span> $ USD</span>
                 </p>
               </div>
-              <button id="nextButton" class="nav-button">
+              <button id="nextButton" class="change-btn">
                 <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
@@ -345,53 +326,55 @@
       <section class="plans">
         <div class="container">
           <div class="plans-inner">
-            <h2 class="title">Esgoe el plan que mejor se ajuste a ti.</h2>
-            <p class="">
+            <h2 class="title">Escoge el plan que mejor se ajuste a ti.</h2>
+            <p class="text">
               Cualquier plan te da acceso completo a nuestra plataforma.
             </p>
-            <div class="plans-cards">
-              <div class="plans-card">
-                <p class="plans-name">Pago Anual</p>
-                <p class="plans-price">
-                  <span>$</span>
-                  5
-                </p>
-                <p class="plans-info">
-                  *Plan básico para mantenerte informado..
-                </p>
-                <a href="#"
-                  >ESCOGER ESTE PLAN
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="plans-card">
-                <div class="card-stiker">Recomendado</div>
-                <p class="plans-name">Pago Anual</p>
-                <p class="plans-price">
-                  <span>$</span>
-                  49
-                </p>
-                <p class="plans-info">
-                  *Ahorras $129 comparado al plan mensual.
-                </p>
-                <a href="#"
-                  >ESCOGER ESTE PLAN
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="plans-card">
-                <p class="plans-name">Acceso de por vida</p>
-                <p class="plans-price">
-                  <span>$</span>
-                  99
-                </p>
-                <p class="plans-info">
-                  *Ahorras $999+ comparado al plan anual.
-                </p>
-                <a href="#"
-                  >ESCOGER ESTE PLAN
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
+            <div class="plans-cards-container">
+              <div class="plans-cards">
+                <div class="plans-card">
+                  <p class="plans-name">Pago Anual</p>
+                  <p class="plans-price">
+                    <span>$</span>
+                    5
+                  </p>
+                  <p class="plans-info">
+                    *Plan básico para mantenerte informado..
+                  </p>
+                  <a href="#"
+                    >ESCOGER ESTE PLAN
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="plans-card">
+                  <div class="card-stiker">Recomendado</div>
+                  <p class="plans-name">Pago Anual</p>
+                  <p class="plans-price">
+                    <span>$</span>
+                    49
+                  </p>
+                  <p class="plans-info">
+                    *Ahorras $129 comparado al plan mensual.
+                  </p>
+                  <a href="#"
+                    >ESCOGER ESTE PLAN
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="plans-card">
+                  <p class="plans-name">Acceso de por vida</p>
+                  <p class="plans-price">
+                    <span>$</span>
+                    99
+                  </p>
+                  <p class="plans-info">
+                    *Ahorras $999+ comparado al plan anual.
+                  </p>
+                  <a href="#"
+                    >ESCOGER ESTE PLAN
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
